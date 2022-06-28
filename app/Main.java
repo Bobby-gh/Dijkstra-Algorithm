@@ -43,88 +43,88 @@ public class Main {
         graph.addVertex(nightMarket);
         graph.addVertex(BankingSquare);
 
-        // adding the edges and getting the distances between vertices
-        graph.addEdge(new Edge(mainGate, greatHall, 2400));
-        graph.addEdge(new Edge(mainGate, nb, 1200));
-        graph.addEdge(new Edge(mainGate, balmeLibrary, 1100));
-        graph.addEdge(new Edge(mainGate, jqb, 700));
-        graph.addEdge(new Edge(mainGate, nnb, 1600));
-        graph.addEdge(new Edge(mainGate, ugcs, 2000));
+        // adding the edges and getting the distances between vertices in meters
+        graph.addEdge(new Edge(mainGate, greatHall, 2100));
+        graph.addEdge(new Edge(mainGate, nb, 1100));
+        graph.addEdge(new Edge(mainGate, balmeLibrary, 800));
+        graph.addEdge(new Edge(mainGate, jqb, 270));
+        graph.addEdge(new Edge(mainGate, nnb, 1300));
+        graph.addEdge(new Edge(mainGate, ugcs, 700));
         graph.addEdge(new Edge(mainGate, cc, 1100));
-        graph.addEdge(new Edge(mainGate, voltaHall, 1300));
-        graph.addEdge(new Edge(mainGate, akuafoHall, 1100));
-        graph.addEdge(new Edge(mainGate, legonHall, 1200));
-        graph.addEdge(new Edge(mainGate, nightMarket, 1000));
-        graph.addEdge(new Edge(mainGate, BankingSquare, 990));
+        graph.addEdge(new Edge(mainGate, voltaHall, 1000));
+        graph.addEdge(new Edge(mainGate, akuafoHall, 900));
+        graph.addEdge(new Edge(mainGate, legonHall, 1100));
+        graph.addEdge(new Edge(mainGate, nightMarket, 1300));
+        graph.addEdge(new Edge(mainGate, BankingSquare, 1200));
 
-        graph.addEdge(new Edge(greatHall, jqb, 2000));
-        graph.addEdge(new Edge(greatHall, nb, 1500));
-        graph.addEdge(new Edge(greatHall, nnb, 1600));
+        graph.addEdge(new Edge(greatHall, jqb, 2100));
+        graph.addEdge(new Edge(greatHall, nb, 1700));
+        graph.addEdge(new Edge(greatHall, nnb, 1700));
         graph.addEdge(new Edge(greatHall, balmeLibrary, 1400));
         graph.addEdge(new Edge(greatHall, ugcs, 1400));
-        graph.addEdge(new Edge(greatHall, cc, 1400));
-        graph.addEdge(new Edge(greatHall, voltaHall, 1200));
-        graph.addEdge(new Edge(greatHall, akuafoHall, 2500));
+        graph.addEdge(new Edge(greatHall, cc, 1500));
+        graph.addEdge(new Edge(greatHall, voltaHall, 1100));
+        graph.addEdge(new Edge(greatHall, akuafoHall, 1500));
         graph.addEdge(new Edge(greatHall, legonHall, 1200));
         graph.addEdge(new Edge(greatHall, nightMarket, 2200));
-        graph.addEdge(new Edge(greatHall, BankingSquare, 2000));
+        graph.addEdge(new Edge(greatHall, BankingSquare, 2100));
 
         graph.addEdge(new Edge(nnb, jqb, 1000));
-        graph.addEdge(new Edge(nnb, nb, 200));
-        graph.addEdge(new Edge(nnb, ugcs, 600));
-        graph.addEdge(new Edge(nnb, balmeLibrary, 610));
-        graph.addEdge(new Edge(nnb, cc, 1500));
+        graph.addEdge(new Edge(nnb, nb, 450));
+        graph.addEdge(new Edge(nnb, ugcs, 700));
+        graph.addEdge(new Edge(nnb, balmeLibrary, 850));
+        graph.addEdge(new Edge(nnb, cc, 1400));
         graph.addEdge(new Edge(nnb, voltaHall, 550));
-        graph.addEdge(new Edge(nnb, akuafoHall, 1300));
-        graph.addEdge(new Edge(nnb, legonHall, 1100));
+        graph.addEdge(new Edge(nnb, akuafoHall, 1100));
+        graph.addEdge(new Edge(nnb, legonHall, 800));
         graph.addEdge(new Edge(nnb, nightMarket, 1900));
-        graph.addEdge(new Edge(nnb, BankingSquare, 1890));
+        graph.addEdge(new Edge(nnb, BankingSquare, 1800));
 
         graph.addEdge(new Edge(jqb, nb, 900));
-        graph.addEdge(new Edge(jqb, ugcs, 850));
-        graph.addEdge(new Edge(jqb, balmeLibrary, 840));
+        graph.addEdge(new Edge(jqb, ugcs, 900));
+        graph.addEdge(new Edge(jqb, balmeLibrary, 900));
         graph.addEdge(new Edge(jqb, cc, 1200));
         graph.addEdge(new Edge(jqb, voltaHall, 1100));
-        graph.addEdge(new Edge(jqb, legonHall, 1500));
-        graph.addEdge(new Edge(jqb, nightMarket, 1600));
-        graph.addEdge(new Edge(jqb, BankingSquare, 1580));
+        graph.addEdge(new Edge(jqb, legonHall, 1000));
+        graph.addEdge(new Edge(jqb, nightMarket, 1500));
+        graph.addEdge(new Edge(jqb, BankingSquare, 1400));
 
-        graph.addEdge(new Edge(ugcs, nb, 550));
-        graph.addEdge(new Edge(ugcs, balmeLibrary, 200));
-        graph.addEdge(new Edge(ugcs, cc, 800));
-        graph.addEdge(new Edge(ugcs, voltaHall, 500));
-        graph.addEdge(new Edge(ugcs, akuafoHall, 650));
-        graph.addEdge(new Edge(ugcs, legonHall, 600));
+        graph.addEdge(new Edge(ugcs, nb, 450));
+        graph.addEdge(new Edge(ugcs, balmeLibrary, 190));
+        graph.addEdge(new Edge(ugcs, cc, 850));
+        graph.addEdge(new Edge(ugcs, voltaHall, 350));
+        graph.addEdge(new Edge(ugcs, akuafoHall, 450));
+        graph.addEdge(new Edge(ugcs, legonHall, 550));
         graph.addEdge(new Edge(ugcs, nightMarket, 1300));
         graph.addEdge(new Edge(ugcs, BankingSquare, 1280));
 
-        graph.addEdge(new Edge(balmeLibrary, nb, 500));
-        graph.addEdge(new Edge(balmeLibrary, cc, 800));
+        graph.addEdge(new Edge(balmeLibrary, nb, 800));
+        graph.addEdge(new Edge(balmeLibrary, cc, 850));
         graph.addEdge(new Edge(balmeLibrary, voltaHall, 400));
         graph.addEdge(new Edge(balmeLibrary, akuafoHall, 270));
-        graph.addEdge(new Edge(balmeLibrary, legonHall, 800));
+        graph.addEdge(new Edge(balmeLibrary, legonHall, 500));
         graph.addEdge(new Edge(balmeLibrary, nightMarket, 1400));
-        graph.addEdge(new Edge(balmeLibrary, BankingSquare, 1389));
+        graph.addEdge(new Edge(balmeLibrary, BankingSquare, 1300));
 
-        graph.addEdge(new Edge(cc, voltaHall, 650));
+        graph.addEdge(new Edge(cc, voltaHall, 750));
         graph.addEdge(new Edge(cc, akuafoHall, 700));
-        graph.addEdge(new Edge(cc, legonHall, 950));
-        graph.addEdge(new Edge(cc, nightMarket, 900));
-        graph.addEdge(new Edge(cc, BankingSquare, 800));
+        graph.addEdge(new Edge(cc, legonHall, 500));
+        graph.addEdge(new Edge(cc, nightMarket, 950));
+        graph.addEdge(new Edge(cc, BankingSquare, 850));
 
-        graph.addEdge(new Edge(voltaHall, akuafoHall, 1400));
+        graph.addEdge(new Edge(voltaHall, akuafoHall, 450));
         graph.addEdge(new Edge(voltaHall, legonHall, 190));
         graph.addEdge(new Edge(voltaHall, nightMarket, 1500));
-        graph.addEdge(new Edge(voltaHall, BankingSquare, 1470));
+        graph.addEdge(new Edge(voltaHall, BankingSquare, 1400));
 
         graph.addEdge(new Edge(akuafoHall, legonHall, 700));
-        graph.addEdge(new Edge(akuafoHall, nightMarket, 887));
-        graph.addEdge(new Edge(akuafoHall, BankingSquare, 784));
+        graph.addEdge(new Edge(akuafoHall, nightMarket, 1100));
+        graph.addEdge(new Edge(akuafoHall, BankingSquare, 1000));
 
-        graph.addEdge(new Edge(legonHall, nightMarket, 1000));
-        graph.addEdge(new Edge(legonHall, BankingSquare, 990));
+        graph.addEdge(new Edge(legonHall, nightMarket, 1300));
+        graph.addEdge(new Edge(legonHall, BankingSquare, 1200));
 
-        graph.addEdge(new Edge(nightMarket, BankingSquare, 10));
+        graph.addEdge(new Edge(nightMarket, BankingSquare, 100));
 
         // asking the user for the current location
         System.out.println("PLEASE CHOOSE YOUR CURRENT LOCATION:");
